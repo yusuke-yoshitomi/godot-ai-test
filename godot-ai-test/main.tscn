@@ -1,3 +1,7 @@
 [gd_scene format=3 uid="uid://r8yip3rec0fu"]
 
 [node name="Node2D" type="Node2D"]
+
+[node name="GodotIcon" type="Sprite2D" parent="."]
+texture = preload("res://icon.svg")
+position = Vector2(576, 324)
